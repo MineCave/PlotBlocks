@@ -1,0 +1,12 @@
+permissions:
+  - plotblocks.place.stone10
+  - plotblocks.place.sponge10
+plotblocks.place.stone10:
+    blockId: 1
+    allowedBlocks: 10
+    message: '&cYou cannot place more than {n} blocks of {b}!'
+plotblocks.place.sponge10:
+    blockId: 19
+    allowedBlocks: 10
+defaultMessage: '&cYou cannot place more than {n} blocks of {b}!'
+masterPermission: 'plotblocks.place.all'
